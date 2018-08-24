@@ -1,0 +1,35 @@
+{
+  "name": "infoxitsoft",
+  "version": "1.0.0",
+  "description": "Developers Connect",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start client --prefix client",
+    "main": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Abinash Bhattarai",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.3",
+    "nodemailer": "^4.6.7",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.4.0",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "nodemon": "^1.18.2"
+  }
+}
