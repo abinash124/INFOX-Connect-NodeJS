@@ -10,7 +10,7 @@ To run the Node application locally in your machine:
 - After you call run this command to install node dependencies locally.
 ``npm install``
 
-- After you call run this command to install react dependencies locally.
+- To install react dependencies locally.
 ``npm run client-install``
 
 
