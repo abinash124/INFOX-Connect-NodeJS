@@ -30,7 +30,6 @@ router.get('/test', (req,res)=>res.json({msg: "My profile"}));
 // First time login- User has no profile
 // User can send information and the profile can be created for him/her via post route.
 
-
 //@Route        GET api/users/profile
 //@Description  GET current user profile
 //@access       Private
