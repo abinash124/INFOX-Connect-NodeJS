@@ -1,27 +1,27 @@
 
-> # Infox Connect (Social Network for Infox IT)
+# Infox Connect (Social Network for Infox IT)
 
 A social network web application for InfoxIT
-##Getting started
+## Getting started
 
 To run the Node application locally in your machine: 
 
 ```bash
-# After you call run this command to install all the dependencies locally.
+- After you call run this command to install all the dependencies locally.
 npm install
 
-# Install dependencies for client
+- Install dependencies for client
 npm run client-install
 
 
-#In /config/keys.js, replace the <MongoDB_URI> with your MongoDB URI. Also replace the <Secret or Key> with a random string.
+- In /config/keys.js, replace the <MongoDB_URI> with your MongoDB URI. Also replace the <Secret or Key> with a random string.
 
-# Run the client & server with concurrently
+- Run the client & server with concurrently
 npm run server
-# Run the React client only
+- Run the React client only
 npm run client
 
-# Server runs on http://localhost:5000 and client on http://localhost:3000
+- Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
 ## Dependencies
