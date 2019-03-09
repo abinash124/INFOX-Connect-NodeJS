@@ -1,8 +1,11 @@
 const mongoose= require('mongoose');
 const Schema=mongoose.Schema;
 
+//Each profile is going to be associated with user by their ID.
+
 const ProfileSchema= new Schema({
-   user: {
+
+    user: {
        type: Schema.Types.ObjectId,
        ref: 'users'
    },
