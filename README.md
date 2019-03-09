@@ -1,26 +1,29 @@
 
-> # Infox Connect (Social Network for Infox IT)
+# Infox Connect (Social Network for Infox IT)
 
 A social network web application for InfoxIT
-##Getting started
+## Getting started
 
 To run the Node application locally in your machine: 
 
-```bash
-# Install dependencies for server
-npm install
 
-# Install dependencies for client
-npm run client-install
+- After you call run this command to install all the dependencies locally.
+``npm install``
 
-# Run the client & server with concurrently
-npm run server
+- Install dependencies for client
+``npm run client-install``
 
-# Run the React client only
-npm run client
 
-# Server runs on http://localhost:5000 and client on http://localhost:3000
-```
+- In /config/keys.js, replace the <MongoDB_URI> with your MongoDB URI. Also replace the <Secret or Key> with a random string.
+
+- Run the client & server with concurrently
+``npm run server``
+
+- Run the React client only
+``npm run client``
+
+- Server runs on http://localhost:5000 and client on http://localhost:3000
+
 
 ## Dependencies
 
@@ -32,7 +35,9 @@ npm run client
 - [passport](https://github.com/jaredhanson/passport) - For handling user authentication
 - [stripe](https://stripe.com/docs/stripe-js/) - For handling credit card transaction securely.
 - [csurf](https://github.com/expressjs/csurf) - Middleware for validating user session and securely by creating a CSRF token.
---[nodemon](https://github.com/remy/nodemon) - Dependency to check changes in the code and update the effect automatically on the server. 
+- [nodemon](https://github.com/remy/nodemon) - Dependency to check changes in the code and update the effect automatically on the server. 
+- [gravatar](https://github.com/emerleite/node-gravatar) - A library to generate Gravatar URLs in Node.js Based on gravatar specs.
+
 
 ## Application skeleton
 
