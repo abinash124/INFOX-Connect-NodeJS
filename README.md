@@ -7,8 +7,11 @@ A social network web application for InfoxIT
 To run the Node application locally in your machine: 
 
 
-- After you call run this command to install all the dependencies locally.
+- After you call run this command to install node dependencies locally.
 ``npm install``
+
+- After you call run this command to install react dependencies locally.
+``npm run client-install``
 
 
 
