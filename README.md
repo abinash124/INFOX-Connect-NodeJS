@@ -6,7 +6,7 @@ A social network web application for InfoxIT
 
 To run the Node application locally in your machine: 
 
-```bash
+
 - After you call run this command to install all the dependencies locally.
 npm install
 
@@ -22,7 +22,7 @@ npm run server
 npm run client
 
 - Server runs on http://localhost:5000 and client on http://localhost:3000
-```
+
 
 ## Dependencies
 
