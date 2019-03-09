@@ -14,9 +14,6 @@ npm install
 npm run client-install
 
 # Run the client & server with concurrently
-npm run dev
-
-# Run the Express server only
 npm run server
 
 # Run the React client only
@@ -35,6 +32,7 @@ npm run client
 - [passport](https://github.com/jaredhanson/passport) - For handling user authentication
 - [stripe](https://stripe.com/docs/stripe-js/) - For handling credit card transaction securely.
 - [csurf](https://github.com/expressjs/csurf) - Middleware for validating user session and securely by creating a CSRF token.
+--[nodemon](https://github.com/remy/nodemon) - Dependency to check changes in the code and update the effect automatically on the server. 
 
 ## Application skeleton
 
