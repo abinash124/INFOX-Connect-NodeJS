@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import classnames from 'classnames';
-import {connect} from 'react-redux';
-import {registerUser} from "../../actions/authActions";
+import { connect } from 'react-redux';
+import { registerUser } from "../../actions/authActions";
 
 //For bootstrap
 //className: {classnames(default-class-name, { 'is-invalid' : input_validation})}
@@ -40,12 +40,12 @@ class Register extends Component {
             password:this.state.password,
             confirmPass: this.state.confirmPass
         };
-        axios.post('/api/users/register', newUser)
-            .then(res=>console.log(res.data))
-            .catch(err=>{
-                this.setState({errors: err.response.data})
-             });
-        //this.props.registerUser(newUser);
+        // axios.post('/api/users/register', newUser)
+        //     .then(res=>console.log(res.data))
+        //     .catch(err=>{
+        //         this.setState({errors: err.response.data})
+        //      });
+        this.props.registerUser(newUser);
 
 
     }
