@@ -9,7 +9,7 @@
     "server": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm start client --prefix client",
-    "main": "concurrently \"npm run server\" \"npm run client\""
+    "main": "concurrently \" server\" \"npm run client\""
   },
   "author": "Abinash Bhattarai",
   "license": "MIT",
