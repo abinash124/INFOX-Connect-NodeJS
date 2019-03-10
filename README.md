@@ -7,14 +7,15 @@ A social network web application for InfoxIT
 To run the Node application locally in your machine: 
 
 
-- After you call run this command to install all the dependencies locally.
+- After you call run this command to install node dependencies locally.
 ``npm install``
 
-- Install dependencies for client
+- To install react dependencies locally.
 ``npm run client-install``
 
 
-- In /config/keys.js, replace the <MongoDB_URI> with your MongoDB URI. Also replace the <Secret or Key> with a random string.
+
+- In /config/keys.js, replace the `<MongoDB_URI>` with your MongoDB URI. Also replace the `<Secret or Key>` with a random string.
 
 - Run the client & server with concurrently
 ``npm run server``
