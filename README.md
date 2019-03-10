@@ -50,6 +50,6 @@ To run the Node application locally in your machine:
 - `validation/` - This folder contains validator for input validations.
 
 
-
+# Idea from Brad-Traversy Udemy MERN stack course
 <br />
 
